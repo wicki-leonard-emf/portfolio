@@ -41,7 +41,7 @@ export const ResumeCard = ({
   return (
     <Link
       href={href || "#"}
-      className="block cursor-pointer"
+      className="block cursor-pointer hover:bg-foreground/5 rounded-lg transition-colors"
       onClick={handleClick}
     >
       <Card className="flex">
